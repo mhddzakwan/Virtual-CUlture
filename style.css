@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'ClashDisplay-Bold';
+    src: url('ClashDisplay-Bold.ttf');
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0; margin: 0;
+}
+.judul, .judulSpan{
+    font-family: 'ClashDisplay-Bold';
+    font-size: 55px;
+
+}
+#lembaga{
+    background-color: white;
+    padding: 10px; /* Atur ukuran padding sesuai kebutuhan */
+
+}
+.lembagaJudul{
+    font-size: 48px;
+    font-weight: 600;
+}
+#j1Materi1 {
+    font-size: 18px;
+    color: #FD727C;
+    font-weight: 600;
+}
+#j2Materi1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+#tionghoa {
+    border-radius: 14px;
+}
+
+/* .navbar{
+    font-family: 'Poppins', sans-serif;
+}
+.descJudul{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+} */
+
+
+@media screen and (max-width: 768px){
+    .judul, .judulSpan{
+        font-size: 44px;
+        text-align: center;
+    }
+    #poster{
+        max-width: 330px;
+        height: 470px;
+    }
+
+
+    .judulgambar {
+        width: 350px;
+        height: 200px;
+    }
+    #j2Materi1 {
+        font-size: 35px;
+    }
+    .lembagaJudul{
+        font-size: 35px;
+    }
+    #asalLembaga{
+        margin-top: 5rem;
+    }
+    .judulBtn{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .descJudul{
+        text-align: center;
+    }
+    #tionghoa{
+        width: 17rem;
+    }
+    .desktop {
+        display: none;
+    }  
+    .android {
+        display: block;
+    }  
+    #kata{
+        width: 300px;
+    }
+    .gambar-card img{
+        width: 70px;
+        height: 70px;
+    }
+    .judul-card p {
+        font-size: 14px;
+    }
+    #kata p {
+        font-size: 14px;
+    }
+
+
+}
+@media screen and (min-width: 769px){
+    .desktop {
+        display: block;
+    }
+    .tes{
+        display: none;
+    }  
+    #poster{
+        height: 480px;
+    }
+    #poster2{
+        height: 450px;
+    }
+    
+    .android {
+        display: none;
+    }  
+    #tionghoa{
+        width: 19rem;
+    }
+
+    #kata {
+        width: 370px;
+    }
+}
+
+
